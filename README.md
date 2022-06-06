@@ -7,6 +7,4 @@
 
 
 
-NewRelic.start(withApplicationToken:"AA640d54c34609f64256555cb0cec2dbb695a041ce-NRMA")
-
 https://one.newrelic.com/nr1-core/mobile/home/MzUwOTk5OHxNT0JJTEV8QVBQTElDQVRJT058MTM4NTk1NzUwOQ?account=3509998&duration=1800000&filters=%28domain%20%3D%20%27MOBILE%27%20AND%20type%20%3D%20%27APPLICATION%27%29&state=22bcaee1-373f-826c-93e6-906b9d4ad63d
