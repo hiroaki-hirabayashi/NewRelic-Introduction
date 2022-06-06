@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_NewRelic_Introduction_NewRelic_IntroductionUITests : NSObject
+@end
+@implementation PodsDummy_Pods_NewRelic_Introduction_NewRelic_IntroductionUITests
+@end

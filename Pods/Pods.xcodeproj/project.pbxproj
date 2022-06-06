@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C9DC7B31A8DB7D01099A2BC67AF7FA9C /* NewRelicAgent */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D7C326897BAE3C80A041ED61335CC1F0 /* Build configuration list for PBXAggregateTarget "NewRelicAgent" */;
+			buildPhases = (
+				256012C9749D6AD234D0C236477FBB71 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = NewRelicAgent;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A808BF168E3E5EC2B91136D960DD8D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0AC448D7A1FD5D0FCE2AA517F6B1D50B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13BDAE1916714318C06F7B52EA7F5BD9 /* Pods-NewRelic-Introduction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0047673E63353BD8DCC3300F724077B /* Pods-NewRelic-Introduction-dummy.m */; };
+		20DA5848B073FE8B25B3E051B51B952A /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E783A066B6A090D7ABDC4849C0CD19 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF6FBBA1E7C2CC343A7C889875CADAF /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2176A2EB3256821375F71A08A2C2F7B2 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-dummy.m */; };
+		5B601E05F430F58F9CBC831F8BFA1126 /* Pods-NewRelic-IntroductionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5DC3CAF5B7BA9F796474748BFF039 /* Pods-NewRelic-IntroductionTests-dummy.m */; };
+		5BB823A4A0B04B4012AE802117459976 /* Pods-NewRelic-Introduction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91804E11906EAA3FB4292B5C610E93C7 /* Pods-NewRelic-Introduction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F83654A445256D8DE27DEBA639EA575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E3556FC67873D4594B68107B3CA2A536 /* Pods-NewRelic-IntroductionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE0E5781E2AA552D9B294D2110886B7 /* Pods-NewRelic-IntroductionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B26ED0817796CEF3C74B636A5EFD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DC7B31A8DB7D01099A2BC67AF7FA9C;
+			remoteInfo = NewRelicAgent;
+		};
+		A21473C107F3DF95DA666DADB1DDECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DC7B31A8DB7D01099A2BC67AF7FA9C;
+			remoteInfo = NewRelicAgent;
+		};
+		A5538E024FE09B4769195075AC1D734B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC7402E5A0C94E4FC642D8C85C7ED28;
+			remoteInfo = "Pods-NewRelic-Introduction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E783A066B6A090D7ABDC4849C0CD19 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-umbrella.h"; sourceTree = "<group>"; };
+		077B6904CD843F8B1B3567A9A9C9014E /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15DF9D9B12820C833BB0781CB089CEA4 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		189EB77F0D3458A4FB062FA1AD33CD20 /* Pods-NewRelic-Introduction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelic-Introduction.release.xcconfig"; sourceTree = "<group>"; };
+		1EC72C7331955FF38D16180C42135D82 /* Pods-NewRelic-IntroductionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelic-IntroductionTests-Info.plist"; sourceTree = "<group>"; };
+		2176A2EB3256821375F71A08A2C2F7B2 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-dummy.m"; sourceTree = "<group>"; };
+		284545CFB4EEBE166DCC146C8B0E7ACD /* Pods-NewRelic-Introduction */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRelic-Introduction"; path = Pods_NewRelic_Introduction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF5DC3CAF5B7BA9F796474748BFF039 /* Pods-NewRelic-IntroductionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRelic-IntroductionTests-dummy.m"; sourceTree = "<group>"; };
+		2DE0E5781E2AA552D9B294D2110886B7 /* Pods-NewRelic-IntroductionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRelic-IntroductionTests-umbrella.h"; sourceTree = "<group>"; };
+		4872E45C597A742EC746F454D823593E /* NewRelic.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = NewRelic.xcframework; sourceTree = "<group>"; };
+		528E9334E28CCBED4726A60770043CDB /* Pods-NewRelic-Introduction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRelic-Introduction.modulemap"; sourceTree = "<group>"; };
+		573977864242645D950E8117DBA0D93C /* Pods-NewRelic-Introduction-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRelic-Introduction-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F67D8A1F7BF5A6BE50EA2D713F62018 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.modulemap"; sourceTree = "<group>"; };
+		608F96D1484B874B30F836525A3D0F12 /* NewRelicAgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NewRelicAgent.release.xcconfig; sourceTree = "<group>"; };
+		6D9015E67D5DEEB71687D1C13901F6B7 /* Pods-NewRelic-Introduction-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelic-Introduction-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C5D7F62238D5D81D54B76440374955A /* Pods-NewRelic-IntroductionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelic-IntroductionTests.release.xcconfig"; sourceTree = "<group>"; };
+		8050B4E62D77546431B074A148753E65 /* Pods-NewRelic-Introduction-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewRelic-Introduction-frameworks.sh"; sourceTree = "<group>"; };
+		8275FAA4A73AD6196D890655DF71712A /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-Info.plist"; sourceTree = "<group>"; };
+		8DAB8A6B807A87653D9B48443CB9D7D8 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests"; path = Pods_NewRelic_Introduction_NewRelic_IntroductionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91804E11906EAA3FB4292B5C610E93C7 /* Pods-NewRelic-Introduction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRelic-Introduction-umbrella.h"; sourceTree = "<group>"; };
+		9B3DFC063CFD1295A09E87B591100316 /* Pods-NewRelic-IntroductionTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRelic-IntroductionTests"; path = Pods_NewRelic_IntroductionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9A6D79947E8F70493ECB45DA55F426 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B9E6AE8CB5035FB6BD9D556FE2F6412 /* Pods-NewRelic-IntroductionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelic-IntroductionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0047673E63353BD8DCC3300F724077B /* Pods-NewRelic-Introduction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRelic-Introduction-dummy.m"; sourceTree = "<group>"; };
+		BCF6FC8265226B9792C226AB2CA960C2 /* Pods-NewRelic-Introduction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelic-Introduction-Info.plist"; sourceTree = "<group>"; };
+		CBEB17265586356A37882190C264224C /* Pods-NewRelic-Introduction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelic-Introduction.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F5BC5AFFA1B1205AA1BE4F1C947F1A /* NewRelicAgent-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "NewRelicAgent-xcframeworks.sh"; sourceTree = "<group>"; };
+		E197DD59A8B2B9D12539557A97D168AC /* NewRelicAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NewRelicAgent.debug.xcconfig; sourceTree = "<group>"; };
+		E31956441F2F7DF16D16751DE7854918 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E747AC01132BA654E1D664D2977FC9E2 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EFF57C1A4DD376C1C53D8D26CB989DC1 /* Pods-NewRelic-IntroductionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRelic-IntroductionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F10374EAE14EFCA713DFBAC2859EC573 /* Pods-NewRelic-IntroductionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRelic-IntroductionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F337C020E263067295B614425EF1BB19 /* Pods-NewRelic-IntroductionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRelic-IntroductionTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C565C61BECDE462AA8D81AF48AE459E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F83654A445256D8DE27DEBA639EA575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80371C5BBC930E78C704122379981788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A808BF168E3E5EC2B91136D960DD8D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65985A887461455DF9FCC1284E7282E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC448D7A1FD5D0FCE2AA517F6B1D50B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064D0F2B1F0FBDFDFE18984AEC43CDC6 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F67D8A1F7BF5A6BE50EA2D713F62018 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.modulemap */,
+				077B6904CD843F8B1B3567A9A9C9014E /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-acknowledgements.markdown */,
+				9B9A6D79947E8F70493ECB45DA55F426 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-acknowledgements.plist */,
+				2176A2EB3256821375F71A08A2C2F7B2 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-dummy.m */,
+				E747AC01132BA654E1D664D2977FC9E2 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-frameworks.sh */,
+				8275FAA4A73AD6196D890655DF71712A /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-Info.plist */,
+				01E783A066B6A090D7ABDC4849C0CD19 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-umbrella.h */,
+				15DF9D9B12820C833BB0781CB089CEA4 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.debug.xcconfig */,
+				E31956441F2F7DF16D16751DE7854918 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.release.xcconfig */,
+			);
+			name = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests";
+			path = "Target Support Files/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests";
+			sourceTree = "<group>";
+		};
+		4AFBE07024066721802A02B1C0D23334 /* Pods-NewRelic-IntroductionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F337C020E263067295B614425EF1BB19 /* Pods-NewRelic-IntroductionTests.modulemap */,
+				F10374EAE14EFCA713DFBAC2859EC573 /* Pods-NewRelic-IntroductionTests-acknowledgements.markdown */,
+				EFF57C1A4DD376C1C53D8D26CB989DC1 /* Pods-NewRelic-IntroductionTests-acknowledgements.plist */,
+				2BF5DC3CAF5B7BA9F796474748BFF039 /* Pods-NewRelic-IntroductionTests-dummy.m */,
+				1EC72C7331955FF38D16180C42135D82 /* Pods-NewRelic-IntroductionTests-Info.plist */,
+				2DE0E5781E2AA552D9B294D2110886B7 /* Pods-NewRelic-IntroductionTests-umbrella.h */,
+				9B9E6AE8CB5035FB6BD9D556FE2F6412 /* Pods-NewRelic-IntroductionTests.debug.xcconfig */,
+				7C5D7F62238D5D81D54B76440374955A /* Pods-NewRelic-IntroductionTests.release.xcconfig */,
+			);
+			name = "Pods-NewRelic-IntroductionTests";
+			path = "Target Support Files/Pods-NewRelic-IntroductionTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C64097046FD454E2DAD1BAE68C2F281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284545CFB4EEBE166DCC146C8B0E7ACD /* Pods-NewRelic-Introduction */,
+				8DAB8A6B807A87653D9B48443CB9D7D8 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests */,
+				9B3DFC063CFD1295A09E87B591100316 /* Pods-NewRelic-IntroductionTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833FAB97921CFA19D85E89B397ED4131 /* Pods-NewRelic-Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				528E9334E28CCBED4726A60770043CDB /* Pods-NewRelic-Introduction.modulemap */,
+				573977864242645D950E8117DBA0D93C /* Pods-NewRelic-Introduction-acknowledgements.markdown */,
+				6D9015E67D5DEEB71687D1C13901F6B7 /* Pods-NewRelic-Introduction-acknowledgements.plist */,
+				A0047673E63353BD8DCC3300F724077B /* Pods-NewRelic-Introduction-dummy.m */,
+				8050B4E62D77546431B074A148753E65 /* Pods-NewRelic-Introduction-frameworks.sh */,
+				BCF6FC8265226B9792C226AB2CA960C2 /* Pods-NewRelic-Introduction-Info.plist */,
+				91804E11906EAA3FB4292B5C610E93C7 /* Pods-NewRelic-Introduction-umbrella.h */,
+				CBEB17265586356A37882190C264224C /* Pods-NewRelic-Introduction.debug.xcconfig */,
+				189EB77F0D3458A4FB062FA1AD33CD20 /* Pods-NewRelic-Introduction.release.xcconfig */,
+			);
+			name = "Pods-NewRelic-Introduction";
+			path = "Target Support Files/Pods-NewRelic-Introduction";
+			sourceTree = "<group>";
+		};
+		A43FDEFB2F34BE3E264853704ECC52F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD475369F0FFE6D68B485B9593578ED6 /* NewRelicAgent */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB1E239253A12658794DC305C69047A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				833FAB97921CFA19D85E89B397ED4131 /* Pods-NewRelic-Introduction */,
+				064D0F2B1F0FBDFDFE18984AEC43CDC6 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests */,
+				4AFBE07024066721802A02B1C0D23334 /* Pods-NewRelic-IntroductionTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CD475369F0FFE6D68B485B9593578ED6 /* NewRelicAgent */ = {
+			isa = PBXGroup;
+			children = (
+				DD8D3CF49708B6B6794F1424D04EBF76 /* Frameworks */,
+				F882BACF71D642A839BD835D3BA20D74 /* Support Files */,
+			);
+			name = NewRelicAgent;
+			path = NewRelicAgent;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A43FDEFB2F34BE3E264853704ECC52F7 /* Pods */,
+				6C64097046FD454E2DAD1BAE68C2F281 /* Products */,
+				BB1E239253A12658794DC305C69047A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD8D3CF49708B6B6794F1424D04EBF76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4872E45C597A742EC746F454D823593E /* NewRelic.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F882BACF71D642A839BD835D3BA20D74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7F5BC5AFFA1B1205AA1BE4F1C947F1A /* NewRelicAgent-xcframeworks.sh */,
+				E197DD59A8B2B9D12539557A97D168AC /* NewRelicAgent.debug.xcconfig */,
+				608F96D1484B874B30F836525A3D0F12 /* NewRelicAgent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NewRelicAgent";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6338A8697E8CFE54465F2286EC1D9644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3556FC67873D4594B68107B3CA2A536 /* Pods-NewRelic-IntroductionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D028E5154DF2CACDDCCF50AAC9055CB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DA5848B073FE8B25B3E051B51B952A /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CC47BEF24319F14AB60A010339D8E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB823A4A0B04B4012AE802117459976 /* Pods-NewRelic-Introduction-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8827B9234022D25BD8018CD770291A27 /* Pods-NewRelic-IntroductionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB22D44F47C7A4018A22B1287EAF6C2 /* Build configuration list for PBXNativeTarget "Pods-NewRelic-IntroductionTests" */;
+			buildPhases = (
+				6338A8697E8CFE54465F2286EC1D9644 /* Headers */,
+				79538B013486B5CF81B718C5D883F474 /* Sources */,
+				80371C5BBC930E78C704122379981788 /* Frameworks */,
+				5332B8655B92C28182A79061F1946E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68583C799B60AECC21B9743CA298B6B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRelic-IntroductionTests";
+			productName = Pods_NewRelic_IntroductionTests;
+			productReference = 9B3DFC063CFD1295A09E87B591100316 /* Pods-NewRelic-IntroductionTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCC7402E5A0C94E4FC642D8C85C7ED28 /* Pods-NewRelic-Introduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 006147068B929C2CB473E981A5E93FFA /* Build configuration list for PBXNativeTarget "Pods-NewRelic-Introduction" */;
+			buildPhases = (
+				D7CC47BEF24319F14AB60A010339D8E5 /* Headers */,
+				0CA924B9C790263441DB8B80C8F9E4D5 /* Sources */,
+				E65985A887461455DF9FCC1284E7282E /* Frameworks */,
+				D65CE814E2644935308DDF7A40623FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E37309173EB92EE6B518BB04AEFD87A /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRelic-Introduction";
+			productName = Pods_NewRelic_Introduction;
+			productReference = 284545CFB4EEBE166DCC146C8B0E7ACD /* Pods-NewRelic-Introduction */;
+			productType = "com.apple.product-type.framework";
+		};
+		D20B0647CFD4A0D0B6CBADE843E2820C /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAD9E792A4000B364C6C4C3D33D88DA /* Build configuration list for PBXNativeTarget "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests" */;
+			buildPhases = (
+				D028E5154DF2CACDDCCF50AAC9055CB3 /* Headers */,
+				7E58CAAAA7EFFBD240A7479E2487232A /* Sources */,
+				4C565C61BECDE462AA8D81AF48AE459E /* Frameworks */,
+				F261A550E5D8068C64141DFC13D95716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B718D12FF6C5879501C0030BC7F089B /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests";
+			productName = Pods_NewRelic_Introduction_NewRelic_IntroductionUITests;
+			productReference = 8DAB8A6B807A87653D9B48443CB9D7D8 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6C64097046FD454E2DAD1BAE68C2F281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9DC7B31A8DB7D01099A2BC67AF7FA9C /* NewRelicAgent */,
+				BCC7402E5A0C94E4FC642D8C85C7ED28 /* Pods-NewRelic-Introduction */,
+				D20B0647CFD4A0D0B6CBADE843E2820C /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests */,
+				8827B9234022D25BD8018CD770291A27 /* Pods-NewRelic-IntroductionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5332B8655B92C28182A79061F1946E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65CE814E2644935308DDF7A40623FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F261A550E5D8068C64141DFC13D95716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256012C9749D6AD234D0C236477FBB71 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NewRelicAgent/NewRelicAgent-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NewRelicAgent/NewRelicAgent-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/NewRelicAgent/NewRelicAgent-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA924B9C790263441DB8B80C8F9E4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BDAE1916714318C06F7B52EA7F5BD9 /* Pods-NewRelic-Introduction-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79538B013486B5CF81B718C5D883F474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B601E05F430F58F9CBC831F8BFA1126 /* Pods-NewRelic-IntroductionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E58CAAAA7EFFBD240A7479E2487232A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF6FBBA1E7C2CC343A7C889875CADAF /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B718D12FF6C5879501C0030BC7F089B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NewRelicAgent;
+			target = C9DC7B31A8DB7D01099A2BC67AF7FA9C /* NewRelicAgent */;
+			targetProxy = A21473C107F3DF95DA666DADB1DDECCB /* PBXContainerItemProxy */;
+		};
+		5E37309173EB92EE6B518BB04AEFD87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NewRelicAgent;
+			target = C9DC7B31A8DB7D01099A2BC67AF7FA9C /* NewRelicAgent */;
+			targetProxy = 57B26ED0817796CEF3C74B636A5EFD0F /* PBXContainerItemProxy */;
+		};
+		68583C799B60AECC21B9743CA298B6B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NewRelic-Introduction";
+			target = BCC7402E5A0C94E4FC642D8C85C7ED28 /* Pods-NewRelic-Introduction */;
+			targetProxy = A5538E024FE09B4769195075AC1D734B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50763FA2D609DBFE98192951B1359510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5D7F62238D5D81D54B76440374955A /* Pods-NewRelic-IntroductionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelic-IntroductionTests/Pods-NewRelic-IntroductionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelic-IntroductionTests/Pods-NewRelic-IntroductionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		571DB98137BAB46C168EE89F9071E99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E197DD59A8B2B9D12539557A97D168AC /* NewRelicAgent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80E7C3FBCD06E34080B90B28B2103125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9E6AE8CB5035FB6BD9D556FE2F6412 /* Pods-NewRelic-IntroductionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelic-IntroductionTests/Pods-NewRelic-IntroductionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelic-IntroductionTests/Pods-NewRelic-IntroductionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9259B19783AC7765665CAFEB05BC4BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608F96D1484B874B30F836525A3D0F12 /* NewRelicAgent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934E6046F05F1F2EB3BF7049F25E388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31956441F2F7DF16D16751DE7854918 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9A41D9E8C6722F7D0E19BED62815625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBEB17265586356A37882190C264224C /* Pods-NewRelic-Introduction.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelic-Introduction/Pods-NewRelic-Introduction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelic-Introduction/Pods-NewRelic-Introduction.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1B6BBC1409A8DD9024BE7FB03BDFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DF9D9B12820C833BB0781CB089CEA4 /* Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests/Pods-NewRelic-Introduction-NewRelic-IntroductionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C836884CF3D190CD4AABE18B7B62DCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189EB77F0D3458A4FB062FA1AD33CD20 /* Pods-NewRelic-Introduction.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRelic-Introduction/Pods-NewRelic-Introduction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRelic-Introduction/Pods-NewRelic-Introduction.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		006147068B929C2CB473E981A5E93FFA /* Build configuration list for PBXNativeTarget "Pods-NewRelic-Introduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A41D9E8C6722F7D0E19BED62815625A /* Debug */,
+				C836884CF3D190CD4AABE18B7B62DCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB22D44F47C7A4018A22B1287EAF6C2 /* Build configuration list for PBXNativeTarget "Pods-NewRelic-IntroductionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E7C3FBCD06E34080B90B28B2103125 /* Debug */,
+				50763FA2D609DBFE98192951B1359510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAD9E792A4000B364C6C4C3D33D88DA /* Build configuration list for PBXNativeTarget "Pods-NewRelic-Introduction-NewRelic-IntroductionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1B6BBC1409A8DD9024BE7FB03BDFA6 /* Debug */,
+				934E6046F05F1F2EB3BF7049F25E388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C326897BAE3C80A041ED61335CC1F0 /* Build configuration list for PBXAggregateTarget "NewRelicAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571DB98137BAB46C168EE89F9071E99C /* Debug */,
+				9259B19783AC7765665CAFEB05BC4BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
