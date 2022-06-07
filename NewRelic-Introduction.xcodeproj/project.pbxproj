@@ -20,6 +20,7 @@
 		F49744BF284A45EB0000A7B0 /* NewRelic_IntroductionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744BE284A45EB0000A7B0 /* NewRelic_IntroductionUITests.swift */; };
 		F49744C1284A45EB0000A7B0 /* NewRelic_IntroductionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744C0284A45EB0000A7B0 /* NewRelic_IntroductionUITestsLaunchTests.swift */; };
 		F49744CF284E493E0000A7B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744CE284E493E0000A7B0 /* MainView.swift */; };
+		F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D1284F97490000A7B0 /* NewRelicManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		F49744BE284A45EB0000A7B0 /* NewRelic_IntroductionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelic_IntroductionUITests.swift; sourceTree = "<group>"; };
 		F49744C0284A45EB0000A7B0 /* NewRelic_IntroductionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelic_IntroductionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F49744CE284E493E0000A7B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F49744D1284F97490000A7B0 /* NewRelicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		F497449D284A45E70000A7B0 /* NewRelic-Introduction */ = {
 			isa = PBXGroup;
 			children = (
+				F49744D0284F971E0000A7B0 /* Manager */,
 				F497449E284A45E70000A7B0 /* NewRelic_IntroductionApp.swift */,
 				F49744CE284E493E0000A7B0 /* MainView.swift */,
 				F49744A0284A45E70000A7B0 /* ContentView.swift */,
@@ -161,6 +164,14 @@
 				F49744C0284A45EB0000A7B0 /* NewRelic_IntroductionUITestsLaunchTests.swift */,
 			);
 			path = "NewRelic-IntroductionUITests";
+			sourceTree = "<group>";
+		};
+		F49744D0284F971E0000A7B0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F49744D1284F97490000A7B0 /* NewRelicManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		F972FCC2B372D0D1EC80A11A /* Pods */ = {
@@ -437,6 +448,7 @@
 				F49744A8284A45EA0000A7B0 /* Persistence.swift in Sources */,
 				F49744A1284A45E70000A7B0 /* ContentView.swift in Sources */,
 				F49744CF284E493E0000A7B0 /* MainView.swift in Sources */,
+				F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */,
 				F497449F284A45E70000A7B0 /* NewRelic_IntroductionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
