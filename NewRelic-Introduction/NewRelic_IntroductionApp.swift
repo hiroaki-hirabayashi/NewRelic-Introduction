@@ -25,7 +25,7 @@ struct NewRelic_IntroductionApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        NewRelic.start(withApplicationToken:"")
+        NewRelicManager.shared.configure()
 
         return true
     }

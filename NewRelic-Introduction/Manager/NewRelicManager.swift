@@ -23,7 +23,7 @@ public class NewRelicManager {
     }
     
     /// 初期化
-    public func configure() {
+    func configure() {
         // TODO: -  NewRelicのロギングレベルを上る
 //        NRLogger.setLogLevels(NRLogLevelALL.rawValue)
         // TODO: - 以下に本番アクセストークンを設定する

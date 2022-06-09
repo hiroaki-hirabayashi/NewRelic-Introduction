@@ -11,12 +11,18 @@ import NewRelic
 struct MainView: View {
     var body: some View {
         Button {
-            NewRelic.crashNow()
+            NewRelicManager.shared.crashNow(logMessage: "手動クラッシュ")
         } label: {
-            Text("NewRelic.crashNow")
+            Text("NewRelicの手動クラッシュ")
                 .font(.system(size: 32))
         }
-
+        
+        Button {
+            fatalError("通常のエラー想定")
+        } label: {
+            Text("fatalError")
+                .font(.system(size: 32))
+        }
     }
 }
 
