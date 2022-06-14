@@ -8,6 +8,8 @@ target 'NewRelic-Introduction' do
   # Pods for NewRelic-Introduction
 
   pod 'NewRelicAgent'
+  pod 'RealmSwift'
+  pod 'GzipSwift'
 
   target 'NewRelic-IntroductionTests' do
     inherit! :search_paths
