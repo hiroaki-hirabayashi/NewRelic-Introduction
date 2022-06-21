@@ -6,7 +6,7 @@ target 'NewRelic-Introduction' do
   use_frameworks!
 
   # Pods for NewRelic-Introduction
-
+  pod 'Alamofire'
   pod 'NewRelicAgent'
   pod 'RealmSwift'
   pod 'GzipSwift'
