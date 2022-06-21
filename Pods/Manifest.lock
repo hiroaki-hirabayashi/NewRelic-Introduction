@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.6.1)
   - GzipSwift (5.1.1)
   - NewRelicAgent (7.3.6)
   - Realm (10.28.1):
@@ -8,23 +9,26 @@ PODS:
     - Realm (= 10.28.1)
 
 DEPENDENCIES:
+  - Alamofire
   - GzipSwift
   - NewRelicAgent
   - RealmSwift
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - GzipSwift
     - NewRelicAgent
     - Realm
     - RealmSwift
 
 SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
   NewRelicAgent: e935016bcbf6940b2ff516d60a86049abbec2eb9
   Realm: f4674e0e7ee537f67a78d79bd8319bc777d61d06
   RealmSwift: 0e0e4786685c4442bf56d3831dfefb5fa05d6fd6
 
-PODFILE CHECKSUM: 621826f3d1eee02cf650475d56a33873f45fcdeb
+PODFILE CHECKSUM: 644a9c25cf081c18a317fd0f778ca6601a1c7bc2
 
 COCOAPODS: 1.11.2
