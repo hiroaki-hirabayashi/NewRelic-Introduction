@@ -8,9 +8,9 @@
 import Network
 
 /// ネットワークの変更を監視
-public class Network {
+public class NetworkManager {
     /// シングルトン
-    public static let shared = Network()
+    public static let shared = NetworkManager()
     /// モニター
     public let monitor = NWPathMonitor()
     /// ネットワーク監視開始

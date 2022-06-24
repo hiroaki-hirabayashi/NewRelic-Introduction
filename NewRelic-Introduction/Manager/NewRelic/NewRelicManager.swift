@@ -36,7 +36,7 @@ public class NewRelicManager {
     
     /// ネットワーク状態でNewRelicにログ送信する
     public func sendNewRelic() {
-        if Network.shared.isOnline() {
+        if NetworkManager.shared.isOnline() {
             self.postNewRelic(
                 app: "comado-predev-web",
                 version: "1.2.3",

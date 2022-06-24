@@ -21,7 +21,7 @@
 		F49744C1284A45EB0000A7B0 /* NewRelic_IntroductionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744C0284A45EB0000A7B0 /* NewRelic_IntroductionUITestsLaunchTests.swift */; };
 		F49744CF284E493E0000A7B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744CE284E493E0000A7B0 /* MainView.swift */; };
 		F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D1284F97490000A7B0 /* NewRelicManager.swift */; };
-		F49744D52861FC600000A7B0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D42861FC600000A7B0 /* Network.swift */; };
+		F49744D52861FC600000A7B0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D42861FC600000A7B0 /* NetworkManager.swift */; };
 		F49744D72861FCB50000A7B0 /* NewRelicLogsSendQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		F49744C0284A45EB0000A7B0 /* NewRelic_IntroductionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelic_IntroductionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F49744CE284E493E0000A7B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F49744D1284F97490000A7B0 /* NewRelicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicManager.swift; sourceTree = "<group>"; };
-		F49744D42861FC600000A7B0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F49744D42861FC600000A7B0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicLogsSendQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,7 +181,7 @@
 		F49744D32861FC2D0000A7B0 /* NewRelic */ = {
 			isa = PBXGroup;
 			children = (
-				F49744D42861FC600000A7B0 /* Network.swift */,
+				F49744D42861FC600000A7B0 /* NetworkManager.swift */,
 				F49744D1284F97490000A7B0 /* NewRelicManager.swift */,
 				F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */,
 			);
@@ -464,7 +464,7 @@
 				F49744D72861FCB50000A7B0 /* NewRelicLogsSendQueue.swift in Sources */,
 				F49744CF284E493E0000A7B0 /* MainView.swift in Sources */,
 				F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */,
-				F49744D52861FC600000A7B0 /* Network.swift in Sources */,
+				F49744D52861FC600000A7B0 /* NetworkManager.swift in Sources */,
 				F497449F284A45E70000A7B0 /* NewRelic_IntroductionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
