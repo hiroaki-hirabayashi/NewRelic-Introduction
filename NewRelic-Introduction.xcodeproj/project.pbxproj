@@ -23,6 +23,8 @@
 		F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D1284F97490000A7B0 /* NewRelicManager.swift */; };
 		F49744D52861FC600000A7B0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D42861FC600000A7B0 /* NetworkManager.swift */; };
 		F49744D72861FCB50000A7B0 /* NewRelicLogsSendQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */; };
+		F49745222886D3F60000A7B0 /* NewRelicConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49745212886D3F60000A7B0 /* NewRelicConstants.swift */; };
+		F49745242886D4550000A7B0 /* NewRelicLogsHttpEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49745232886D4550000A7B0 /* NewRelicLogsHttpEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		F49744D1284F97490000A7B0 /* NewRelicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicManager.swift; sourceTree = "<group>"; };
 		F49744D42861FC600000A7B0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicLogsSendQueue.swift; sourceTree = "<group>"; };
+		F49745212886D3F60000A7B0 /* NewRelicConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicConstants.swift; sourceTree = "<group>"; };
+		F49745232886D4550000A7B0 /* NewRelicLogsHttpEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicLogsHttpEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,8 @@
 				F49744D42861FC600000A7B0 /* NetworkManager.swift */,
 				F49744D1284F97490000A7B0 /* NewRelicManager.swift */,
 				F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */,
+				F49745212886D3F60000A7B0 /* NewRelicConstants.swift */,
+				F49745232886D4550000A7B0 /* NewRelicLogsHttpEntity.swift */,
 			);
 			path = NewRelic;
 			sourceTree = "<group>";
@@ -460,7 +466,9 @@
 			files = (
 				F49744AB284A45EA0000A7B0 /* NewRelic_Introduction.xcdatamodeld in Sources */,
 				F49744A8284A45EA0000A7B0 /* Persistence.swift in Sources */,
+				F49745222886D3F60000A7B0 /* NewRelicConstants.swift in Sources */,
 				F49744A1284A45E70000A7B0 /* ContentView.swift in Sources */,
+				F49745242886D4550000A7B0 /* NewRelicLogsHttpEntity.swift in Sources */,
 				F49744D72861FCB50000A7B0 /* NewRelicLogsSendQueue.swift in Sources */,
 				F49744CF284E493E0000A7B0 /* MainView.swift in Sources */,
 				F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */,
