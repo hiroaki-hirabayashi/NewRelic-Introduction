@@ -12,9 +12,9 @@ struct NewRelicLogsHttpEntity: Encodable {
     var logs: [MessageEntity]
 }
 
-//extension NewRelicLogsHttpEntity {
-//    struct MessageEntity: Encodable {
-//        // NewRelicでJSON解析されてトップのフィールドに配置される
-//        var message: LogsFormat
-//    }
-//}
+extension NewRelicLogsHttpEntity {
+    struct MessageEntity: Encodable {
+        // NewRelicでJSON解析されてトップのフィールドに配置される
+        var message: LogsFormat
+    }
+}
