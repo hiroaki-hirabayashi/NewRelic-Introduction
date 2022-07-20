@@ -25,6 +25,10 @@
 		F49744D72861FCB50000A7B0 /* NewRelicLogsSendQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */; };
 		F49745222886D3F60000A7B0 /* NewRelicConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49745212886D3F60000A7B0 /* NewRelicConstants.swift */; };
 		F49745242886D4550000A7B0 /* NewRelicLogsHttpEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49745232886D4550000A7B0 /* NewRelicLogsHttpEntity.swift */; };
+		F497452728882A200000A7B0 /* LogsFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497452628882A200000A7B0 /* LogsFormat.swift */; };
+		F497452A28882AA80000A7B0 /* NanoIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497452928882AA80000A7B0 /* NanoIDManager.swift */; };
+		F497452C28882AEB0000A7B0 /* NanoID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497452B28882AEB0000A7B0 /* NanoID.swift */; };
+		F497452F28882CA90000A7B0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497452E28882CA90000A7B0 /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,10 @@
 		F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicLogsSendQueue.swift; sourceTree = "<group>"; };
 		F49745212886D3F60000A7B0 /* NewRelicConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicConstants.swift; sourceTree = "<group>"; };
 		F49745232886D4550000A7B0 /* NewRelicLogsHttpEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicLogsHttpEntity.swift; sourceTree = "<group>"; };
+		F497452628882A200000A7B0 /* LogsFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsFormat.swift; sourceTree = "<group>"; };
+		F497452928882AA80000A7B0 /* NanoIDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoIDManager.swift; sourceTree = "<group>"; };
+		F497452B28882AEB0000A7B0 /* NanoID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoID.swift; sourceTree = "<group>"; };
+		F497452E28882CA90000A7B0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +185,9 @@
 		F49744D0284F971E0000A7B0 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				F497452D28882C8C0000A7B0 /* User */,
+				F497452828882A920000A7B0 /* NanoID */,
+				F4974525288829F80000A7B0 /* Logger */,
 				F49744D32861FC2D0000A7B0 /* NewRelic */,
 			);
 			path = Manager;
@@ -192,6 +203,31 @@
 				F49745232886D4550000A7B0 /* NewRelicLogsHttpEntity.swift */,
 			);
 			path = NewRelic;
+			sourceTree = "<group>";
+		};
+		F4974525288829F80000A7B0 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				F497452628882A200000A7B0 /* LogsFormat.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		F497452828882A920000A7B0 /* NanoID */ = {
+			isa = PBXGroup;
+			children = (
+				F497452B28882AEB0000A7B0 /* NanoID.swift */,
+				F497452928882AA80000A7B0 /* NanoIDManager.swift */,
+			);
+			path = NanoID;
+			sourceTree = "<group>";
+		};
+		F497452D28882C8C0000A7B0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F497452E28882CA90000A7B0 /* UserManager.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		F972FCC2B372D0D1EC80A11A /* Pods */ = {
@@ -466,14 +502,18 @@
 			files = (
 				F49744AB284A45EA0000A7B0 /* NewRelic_Introduction.xcdatamodeld in Sources */,
 				F49744A8284A45EA0000A7B0 /* Persistence.swift in Sources */,
+				F497452F28882CA90000A7B0 /* UserManager.swift in Sources */,
 				F49745222886D3F60000A7B0 /* NewRelicConstants.swift in Sources */,
 				F49744A1284A45E70000A7B0 /* ContentView.swift in Sources */,
 				F49745242886D4550000A7B0 /* NewRelicLogsHttpEntity.swift in Sources */,
 				F49744D72861FCB50000A7B0 /* NewRelicLogsSendQueue.swift in Sources */,
+				F497452A28882AA80000A7B0 /* NanoIDManager.swift in Sources */,
 				F49744CF284E493E0000A7B0 /* MainView.swift in Sources */,
 				F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */,
 				F49744D52861FC600000A7B0 /* NetworkManager.swift in Sources */,
+				F497452C28882AEB0000A7B0 /* NanoID.swift in Sources */,
 				F497449F284A45E70000A7B0 /* NewRelic_IntroductionApp.swift in Sources */,
+				F497452728882A200000A7B0 /* LogsFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
