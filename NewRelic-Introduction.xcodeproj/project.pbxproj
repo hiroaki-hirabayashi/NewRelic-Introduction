@@ -29,6 +29,7 @@
 		F497452A28882AA80000A7B0 /* NanoIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497452928882AA80000A7B0 /* NanoIDManager.swift */; };
 		F497452C28882AEB0000A7B0 /* NanoID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497452B28882AEB0000A7B0 /* NanoID.swift */; };
 		F497452F28882CA90000A7B0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497452E28882CA90000A7B0 /* UserManager.swift */; };
+		F4974532288AD05F0000A7B0 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4974531288AD05F0000A7B0 /* UserDefaultsKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		F497452928882AA80000A7B0 /* NanoIDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoIDManager.swift; sourceTree = "<group>"; };
 		F497452B28882AEB0000A7B0 /* NanoID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoID.swift; sourceTree = "<group>"; };
 		F497452E28882CA90000A7B0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		F4974531288AD05F0000A7B0 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		F497449D284A45E70000A7B0 /* NewRelic-Introduction */ = {
 			isa = PBXGroup;
 			children = (
+				F4974530288ACFF60000A7B0 /* Utils */,
 				F49744D0284F971E0000A7B0 /* Manager */,
 				F497449E284A45E70000A7B0 /* NewRelic_IntroductionApp.swift */,
 				F49744CE284E493E0000A7B0 /* MainView.swift */,
@@ -228,6 +231,14 @@
 				F497452E28882CA90000A7B0 /* UserManager.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		F4974530288ACFF60000A7B0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4974531288AD05F0000A7B0 /* UserDefaultsKey.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		F972FCC2B372D0D1EC80A11A /* Pods */ = {
@@ -509,6 +520,7 @@
 				F49744D72861FCB50000A7B0 /* NewRelicLogsSendQueue.swift in Sources */,
 				F497452A28882AA80000A7B0 /* NanoIDManager.swift in Sources */,
 				F49744CF284E493E0000A7B0 /* MainView.swift in Sources */,
+				F4974532288AD05F0000A7B0 /* UserDefaultsKey.swift in Sources */,
 				F49744D2284F97490000A7B0 /* NewRelicManager.swift in Sources */,
 				F49744D52861FC600000A7B0 /* NetworkManager.swift in Sources */,
 				F497452C28882AEB0000A7B0 /* NanoID.swift in Sources */,
