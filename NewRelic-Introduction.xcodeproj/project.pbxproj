@@ -204,9 +204,9 @@
 			isa = PBXGroup;
 			children = (
 				F49744D42861FC600000A7B0 /* NetworkManager.swift */,
+				F49745212886D3F60000A7B0 /* NewRelicConstants.swift */,
 				F49744D1284F97490000A7B0 /* NewRelicManager.swift */,
 				F49744D62861FCB50000A7B0 /* NewRelicLogsSendQueue.swift */,
-				F49745212886D3F60000A7B0 /* NewRelicConstants.swift */,
 				F49745232886D4550000A7B0 /* NewRelicLogsHttpEntity.swift */,
 			);
 			path = NewRelic;
