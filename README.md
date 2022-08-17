@@ -1,5 +1,5 @@
 # NewRelic-Introduction
-- iOSからキューイング処理を使用し、NewRelicにログを送信するハンズオンアプリ
+- iOSからキューイング処理を使用し、NewRelicにログを送信するハンズオンApp
 
 - [NewRelic ログイン、サインアップ](https://newrelic.com/jp)
 
